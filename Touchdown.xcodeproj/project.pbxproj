@@ -16,6 +16,7 @@
 		E72321B02754F8FE008E8A8F /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = E72321AC2754F8FE008E8A8F /* category.json */; };
 		E72321B12754F8FE008E8A8F /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = E72321AD2754F8FE008E8A8F /* product.json */; };
 		E72321BD2754FAA8008E8A8F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72321BC2754FAA8008E8A8F /* Constant.swift */; };
+		E76A283027564CF100678ED9 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A282F27564CF100678ED9 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E72321AD2754F8FE008E8A8F /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		E72321B42754F972008E8A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E72321BC2754FAA8008E8A8F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E76A282F27564CF100678ED9 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		E72321B72754FA08008E8A8F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E76A282F27564CF100678ED9 /* FooterView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				E723219F2754F833008E8A8F /* ContentView.swift in Sources */,
 				E723219D2754F833008E8A8F /* TouchdownApp.swift in Sources */,
+				E76A283027564CF100678ED9 /* FooterView.swift in Sources */,
 				E72321BD2754FAA8008E8A8F /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
