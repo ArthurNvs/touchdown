@@ -23,6 +23,7 @@ struct FeaturedTabView: View {
 struct FeaturedTabView_Previews: PreviewProvider {
   static var previews: some View {
     FeaturedTabView()
+      .previewDevice("iPhone 12 Pro")
       .background(Color.gray)
   }
 }
