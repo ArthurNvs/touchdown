@@ -37,6 +37,7 @@
 		E7B0300E2758E9D200BCD34E /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0300D2758E9D200BCD34E /* NavigationBarDetailView.swift */; };
 		E7B030102758EB2F00BCD34E /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0300F2758EB2F00BCD34E /* HeaderDetailView.swift */; };
 		E7B030122758EC7B00BCD34E /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B030112758EC7B00BCD34E /* TopPartDetailView.swift */; };
+		E7B0301427595ED900BCD34E /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0301327595ED900BCD34E /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		E7B0300D2758E9D200BCD34E /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		E7B0300F2758EB2F00BCD34E /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		E7B030112758EC7B00BCD34E /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		E7B0301327595ED900BCD34E /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				E72321BC2754FAA8008E8A8F /* Constant.swift */,
+				E7B0301327595ED900BCD34E /* CustomShape.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				E7B030062758E58D00BCD34E /* BrandItemView.swift in Sources */,
 				E76A284027578D8D00678ED9 /* CategoryItemView.swift in Sources */,
 				E76A283C2757861B00678ED9 /* FeaturedTabView.swift in Sources */,
+				E7B0301427595ED900BCD34E /* CustomShape.swift in Sources */,
 				E76A28362756B38400678ED9 /* PlayerModel.swift in Sources */,
 				E7B030042758E52E00BCD34E /* BrandModel.swift in Sources */,
 				E76A28462757964D00678ED9 /* TitleView.swift in Sources */,
