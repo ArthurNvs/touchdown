@@ -22,12 +22,20 @@ struct ProductDetailView: View {
         .zIndex(1)
       
       VStack(alignment: .center, spacing: 0) {
+        RatingsSizeDetailView()
+          .padding(.top, -20)
+          .padding(.bottom, 10)
+        
         ScrollView(.vertical, showsIndicators: false) {
           Text(sampleProduct.description)
             .font(.system(.body, design: .rounded))
             .foregroundColor(.gray)
             .multilineTextAlignment(.leading)
         } //: ScrollView
+        
+        QuantityFavouriteDetailView()
+          .padding(.vertical, 10)
+        
         Spacer()
       } //: VStack
       .padding(.horizontal)
